@@ -1,0 +1,14 @@
+lockfileVersion: '6.0'
+
+dependencies:
+  '@djot/djot':
+    specifier: ^0.2.2
+    version: 0.2.2
+
+packages:
+
+  /@djot/djot@0.2.2:
+    resolution: {integrity: sha512-D2/a3BICF4DpcDb4I3yI7mboX/hsmZwiWbNylPEzQWGSxQGZxR1VQIOCUBDsi36pHaUOR4678281cx4kwGpTwA==}
+    engines: {node: '>=17.0.0'}
+    hasBin: true
+    dev: false

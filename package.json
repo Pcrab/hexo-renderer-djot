@@ -1,0 +1,35 @@
+{
+    "name": "hexo-renderer-djot",
+    "version": "0.0.0",
+    "description": "Djot renderer plugin for hexo.",
+    "main": "src/index.js",
+    "author": {
+        "name": "Pcrab",
+        "email": "pcrab@pcrab.xyz",
+        "url": "https://github.com/Pcrab"
+    },
+    "bugs": {
+        "url": "https://github.com/Pcrab/hexo-renderer-djot/issues"
+    },
+    "keywords": [
+        "hexo",
+        "plugin",
+        "renderer",
+        "djot"
+    ],
+    "scripts": {
+        "preinstall": "npx only-allow pnpm"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Pcrab/hexo-renderer-djot.git"
+    },
+    "homepage": "https://github.com/Pcrab/hexo-renderer-djot",
+    "license": "MIT",
+    "files": [
+        "src/*"
+    ],
+    "dependencies": {
+        "@djot/djot": "^0.2.2"
+    }
+}
