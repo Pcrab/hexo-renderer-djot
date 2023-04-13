@@ -1,6 +1,6 @@
 {
     "name": "hexo-renderer-djot",
-    "version": "0.0.0",
+    "version": "0.0.1",
     "description": "Djot renderer plugin for hexo.",
     "main": "src/index.cjs",
     "author": {
