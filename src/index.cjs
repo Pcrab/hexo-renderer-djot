@@ -1,8 +1,15 @@
 "use strict";
 
-const renderer = require("./renderer.cjs");
+hexo.config.djot = Object.assign(
+    {
+        math: {
+            output: "mathml",
+        },
+    },
+    hexo.config.djot
+);
 
-hexo.config.djot = Object.assign({}, hexo.config.djot);
+const renderer = require("./renderer.cjs")(hexo.config.djot);
 
 // disable nunjucks to prevent html inject to source.
 // djot do not support raw html in source text.
