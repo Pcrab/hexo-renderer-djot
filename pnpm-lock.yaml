@@ -1,9 +1,13 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 dependencies:
   '@djot/djot':
-    specifier: ^0.2.2
-    version: 0.2.2
+    specifier: ^0.3.0
+    version: 0.3.1
   katex:
     specifier: ^0.16.4
     version: 0.16.4
@@ -15,8 +19,8 @@ devDependencies:
 
 packages:
 
-  /@djot/djot@0.2.2:
-    resolution: {integrity: sha512-D2/a3BICF4DpcDb4I3yI7mboX/hsmZwiWbNylPEzQWGSxQGZxR1VQIOCUBDsi36pHaUOR4678281cx4kwGpTwA==}
+  /@djot/djot@0.3.1:
+    resolution: {integrity: sha512-jFYDPI8xLo7lz4V28ZaGRW+0E6lhRPijxNEb6Dj00Vo8twCd4Yb0A7Fug8clYTe1Le2ghl/uUcKGGTsN/avmHA==}
     engines: {node: '>=17.0.0'}
     hasBin: true
     dev: false
