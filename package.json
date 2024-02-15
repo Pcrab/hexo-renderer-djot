@@ -30,7 +30,7 @@
         "src/*"
     ],
     "dependencies": {
-        "@djot/djot": "^0.2.2",
+        "@djot/djot": "^0.3.0",
         "katex": "^0.16.4"
     },
     "devDependencies": {
