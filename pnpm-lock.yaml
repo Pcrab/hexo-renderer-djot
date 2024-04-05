@@ -1,28 +1,32 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 dependencies:
   '@djot/djot':
-    specifier: ^0.2.2
-    version: 0.2.2
+    specifier: ^0.3.1
+    version: 0.3.1
   katex:
-    specifier: ^0.16.4
-    version: 0.16.4
+    specifier: ^0.16.10
+    version: 0.16.10
 
 devDependencies:
   '@types/katex':
-    specifier: ^0.16.0
-    version: 0.16.0
+    specifier: ^0.16.7
+    version: 0.16.7
 
 packages:
 
-  /@djot/djot@0.2.2:
-    resolution: {integrity: sha512-D2/a3BICF4DpcDb4I3yI7mboX/hsmZwiWbNylPEzQWGSxQGZxR1VQIOCUBDsi36pHaUOR4678281cx4kwGpTwA==}
+  /@djot/djot@0.3.1:
+    resolution: {integrity: sha512-jFYDPI8xLo7lz4V28ZaGRW+0E6lhRPijxNEb6Dj00Vo8twCd4Yb0A7Fug8clYTe1Le2ghl/uUcKGGTsN/avmHA==}
     engines: {node: '>=17.0.0'}
     hasBin: true
     dev: false
 
-  /@types/katex@0.16.0:
-    resolution: {integrity: sha512-hz+S3nV6Mym5xPbT9fnO8dDhBFQguMYpY0Ipxv06JMi1ORgnEM4M1ymWDUhUNer3ElLmT583opRo4RzxKmh9jw==}
+  /@types/katex@0.16.7:
+    resolution: {integrity: sha512-HMwFiRujE5PjrgwHQ25+bsLJgowjGjm5Z8FVSf0N6PwgJrwxH0QxzHYDcKsTfV3wva0vzrpqMTJS2jXPr5BMEQ==}
     dev: true
 
   /commander@8.3.0:
@@ -30,8 +34,8 @@ packages:
     engines: {node: '>= 12'}
     dev: false
 
-  /katex@0.16.4:
-    resolution: {integrity: sha512-WudRKUj8yyBeVDI4aYMNxhx5Vhh2PjpzQw1GRu/LVGqL4m1AxwD1GcUp0IMbdJaf5zsjtj8ghP0DOQRYhroNkw==}
+  /katex@0.16.10:
+    resolution: {integrity: sha512-ZiqaC04tp2O5utMsl2TEZTXxa6WSC4yo0fv5ML++D3QZv/vx2Mct0mTlRx3O+uUkjfuAgOkzsCmq5MiUEsDDdA==}
     hasBin: true
     dependencies:
       commander: 8.3.0
